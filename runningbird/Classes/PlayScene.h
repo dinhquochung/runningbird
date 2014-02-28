@@ -1,5 +1,5 @@
 //
-//  HelloWorldScene.h
+//  PlayScene.h
 //  runningbird
 //
 //  Created by Dinh Quoc Hung on 2/15/14.
@@ -16,11 +16,18 @@
 /**
  *  The main scene
  */
-@interface HelloWorldScene : CCScene
+
+@interface PlayScene : CCScene <CCPhysicsCollisionDelegate>
+{
+    CGSize _screenSize;
+
+    CCSprite* _bg1;
+    CCSprite* _bg2;
+}
 
 // -----------------------------------------------------------------------
 
-+ (HelloWorldScene *)scene;
++ (PlayScene *)scene;
 - (id)init;
 
 // -----------------------------------------------------------------------

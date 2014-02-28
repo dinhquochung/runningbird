@@ -8,6 +8,7 @@
 // -----------------------------------------------------------------------
 
 #import "cocos2d.h"
+#import <FacebookSDK/FacebookSDK.h>
 
-@interface AppDelegate : CCAppDelegate
+@interface AppDelegate : CCAppDelegate <UIApplicationDelegate>
 @end

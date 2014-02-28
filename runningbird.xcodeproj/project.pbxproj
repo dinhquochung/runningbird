@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64FC147A18B1FC52007E0C4F /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FC147918B1FC52007E0C4F /* FacebookSDK.framework */; };
+		BD3520D418AFD85000C91AF9 /* igloo.wav in Resources */ = {isa = PBXBuildFile; fileRef = BD3520D018AFD85000C91AF9 /* igloo.wav */; };
+		BD3520D518AFD85000C91AF9 /* oops.wav in Resources */ = {isa = PBXBuildFile; fileRef = BD3520D118AFD85000C91AF9 /* oops.wav */; };
+		BD3520D618AFD85000C91AF9 /* shape.wav in Resources */ = {isa = PBXBuildFile; fileRef = BD3520D218AFD85000C91AF9 /* shape.wav */; };
+		BD3520D718AFD85000C91AF9 /* switch.wav in Resources */ = {isa = PBXBuildFile; fileRef = BD3520D318AFD85000C91AF9 /* switch.wav */; };
+		BD3520D918AFEE9700C91AF9 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3520D818AFEE9700C91AF9 /* FacebookSDK.framework */; };
 		BDA4B9C918AE6CCD001A5397 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA4B9C818AE6CCD001A5397 /* QuartzCore.framework */; };
 		BDA4B9CB18AE6CCD001A5397 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA4B9CA18AE6CCD001A5397 /* OpenGLES.framework */; };
 		BDA4B9CD18AE6CCD001A5397 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA4B9CC18AE6CCD001A5397 /* OpenAL.framework */; };
@@ -210,20 +216,30 @@
 		BDA4BC6A18AE6CD2001A5397 /* LICENSE_Chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BC6918AE6CD2001A5397 /* LICENSE_Chipmunk.txt */; };
 		BDA4BC6E18AE6CD2001A5397 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA4BC6D18AE6CD2001A5397 /* main.m */; };
 		BDA4BC7218AE6CD2001A5397 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA4BC7118AE6CD2001A5397 /* AppDelegate.m */; };
-		BDA4BC7518AE6CD2001A5397 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA4BC7418AE6CD2001A5397 /* HelloWorldScene.m */; };
+		BDA4BC7518AE6CD2001A5397 /* PlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA4BC7418AE6CD2001A5397 /* PlayScene.m */; };
 		BDA4BC7818AE6CD2001A5397 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA4BC7718AE6CD2001A5397 /* IntroScene.m */; };
-		BDA4BC7C18AE6CD2001A5397 /* NewtonScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA4BC7B18AE6CD2001A5397 /* NewtonScene.m */; };
-		BDA4BC7F18AE6CD2001A5397 /* NewtonSphere.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA4BC7E18AE6CD2001A5397 /* NewtonSphere.m */; };
-		BDA4BC8218AE6CD2001A5397 /* LightBulb.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA4BC8118AE6CD2001A5397 /* LightBulb.m */; };
-		BDA4BC8518AE6CD2001A5397 /* Rope.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA4BC8418AE6CD2001A5397 /* Rope.m */; };
-		BDA4BC8718AE6CD2001A5397 /* fire.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BC8618AE6CD2001A5397 /* fire.plist */; };
-		BDA4BC8918AE6CD2001A5397 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BC8818AE6CD2001A5397 /* fire.png */; };
-		BDA4BC8B18AE6CD2001A5397 /* newton-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BC8A18AE6CD2001A5397 /* newton-ipadhd.plist */; };
-		BDA4BC8D18AE6CD2001A5397 /* newton-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BC8C18AE6CD2001A5397 /* newton-ipadhd.png */; };
-		BDA4BC8F18AE6CD2001A5397 /* newton-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BC8E18AE6CD2001A5397 /* newton-ipad.plist */; };
-		BDA4BC9118AE6CD2001A5397 /* newton-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BC9018AE6CD2001A5397 /* newton-ipad.png */; };
-		BDA4BC9318AE6CD2001A5397 /* newton.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BC9218AE6CD2001A5397 /* newton.plist */; };
-		BDA4BC9518AE6CD2001A5397 /* newton.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BC9418AE6CD2001A5397 /* newton.png */; };
+		BDA4BCB318AE7436001A5397 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BC9E18AE7436001A5397 /* background.mp3 */; };
+		BDA4BCB418AE7436001A5397 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BC9F18AE7436001A5397 /* bg.png */; };
+		BDA4BCB518AE7436001A5397 /* bombFail.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCA018AE7436001A5397 /* bombFail.wav */; };
+		BDA4BCB618AE7436001A5397 /* bombRelease.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCA118AE7436001A5397 /* bombRelease.wav */; };
+		BDA4BCB718AE7436001A5397 /* boom.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCA218AE7436001A5397 /* boom.wav */; };
+		BDA4BCB818AE7436001A5397 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCA418AE7436001A5397 /* Icon-120.png */; };
+		BDA4BCB918AE7436001A5397 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCA518AE7436001A5397 /* Icon-72.png */; };
+		BDA4BCBA18AE7436001A5397 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCA618AE7436001A5397 /* Icon-72@2x.png */; };
+		BDA4BCBB18AE7436001A5397 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCA718AE7436001A5397 /* Icon-76.png */; };
+		BDA4BCBC18AE7436001A5397 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCA818AE7436001A5397 /* Icon-76@2x.png */; };
+		BDA4BCBD18AE7436001A5397 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCA918AE7436001A5397 /* Icon-iPad-Spotlight-iOS7@2x.png */; };
+		BDA4BCBE18AE7436001A5397 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCAA18AE7436001A5397 /* Icon-Small-50.png */; };
+		BDA4BCBF18AE7436001A5397 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCAB18AE7436001A5397 /* Icon-Small.png */; };
+		BDA4BCC018AE7436001A5397 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCAC18AE7436001A5397 /* Icon-Small@2x.png */; };
+		BDA4BCC118AE7436001A5397 /* Icon-Spotlight-iOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCAD18AE7436001A5397 /* Icon-Spotlight-iOS7.png */; };
+		BDA4BCC218AE7436001A5397 /* Icon-Spotlight-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCAE18AE7436001A5397 /* Icon-Spotlight-iOS7@2x.png */; };
+		BDA4BCC318AE7436001A5397 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCAF18AE7436001A5397 /* Icon.png */; };
+		BDA4BCC418AE7436001A5397 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCB018AE7436001A5397 /* Icon@2x.png */; };
+		BDA4BCC818AE9064001A5397 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCC718AE9064001A5397 /* bg2.png */; };
+		BDA4BCCB18AE9130001A5397 /* sprite_sheet.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCC918AE9130001A5397 /* sprite_sheet.plist */; };
+		BDA4BCCC18AE9130001A5397 /* sprite_sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA4BCCA18AE9130001A5397 /* sprite_sheet.png */; };
+		BDA4BCCF18AFC6E5001A5397 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA4BCCE18AFC6E5001A5397 /* GameOverScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -237,6 +253,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64FC147918B1FC52007E0C4F /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		BD3520D018AFD85000C91AF9 /* igloo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = igloo.wav; path = Resources/igloo.wav; sourceTree = "<group>"; };
+		BD3520D118AFD85000C91AF9 /* oops.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = oops.wav; path = Resources/oops.wav; sourceTree = "<group>"; };
+		BD3520D218AFD85000C91AF9 /* shape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = shape.wav; path = Resources/shape.wav; sourceTree = "<group>"; };
+		BD3520D318AFD85000C91AF9 /* switch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = switch.wav; path = Resources/switch.wav; sourceTree = "<group>"; };
+		BD3520D818AFEE9700C91AF9 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		BDA4B9C518AE6CCD001A5397 /* runningbird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runningbird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA4B9C818AE6CCD001A5397 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BDA4B9CA18AE6CCD001A5397 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -661,27 +683,33 @@
 		BDA4BC6D18AE6CD2001A5397 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		BDA4BC7018AE6CD2001A5397 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		BDA4BC7118AE6CD2001A5397 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		BDA4BC7318AE6CD2001A5397 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		BDA4BC7418AE6CD2001A5397 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
+		BDA4BC7318AE6CD2001A5397 /* PlayScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PlayScene.h; path = Classes/PlayScene.h; sourceTree = "<group>"; };
+		BDA4BC7418AE6CD2001A5397 /* PlayScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PlayScene.m; path = Classes/PlayScene.m; sourceTree = "<group>"; };
 		BDA4BC7618AE6CD2001A5397 /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		BDA4BC7718AE6CD2001A5397 /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
-		BDA4BC7918AE6CD2001A5397 /* NewtonConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonConstants.h; path = Classes/NewtonConstants.h; sourceTree = "<group>"; };
-		BDA4BC7A18AE6CD2001A5397 /* NewtonScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonScene.h; path = Classes/NewtonScene.h; sourceTree = "<group>"; };
-		BDA4BC7B18AE6CD2001A5397 /* NewtonScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NewtonScene.m; path = Classes/NewtonScene.m; sourceTree = "<group>"; };
-		BDA4BC7D18AE6CD2001A5397 /* NewtonSphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonSphere.h; path = Classes/NewtonSphere.h; sourceTree = "<group>"; };
-		BDA4BC7E18AE6CD2001A5397 /* NewtonSphere.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NewtonSphere.m; path = Classes/NewtonSphere.m; sourceTree = "<group>"; };
-		BDA4BC8018AE6CD2001A5397 /* LightBulb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LightBulb.h; path = Classes/LightBulb.h; sourceTree = "<group>"; };
-		BDA4BC8118AE6CD2001A5397 /* LightBulb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LightBulb.m; path = Classes/LightBulb.m; sourceTree = "<group>"; };
-		BDA4BC8318AE6CD2001A5397 /* Rope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Rope.h; path = Classes/Rope.h; sourceTree = "<group>"; };
-		BDA4BC8418AE6CD2001A5397 /* Rope.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Rope.m; path = Classes/Rope.m; sourceTree = "<group>"; };
-		BDA4BC8618AE6CD2001A5397 /* fire.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fire.plist; path = Resources/fire.plist; sourceTree = "<group>"; };
-		BDA4BC8818AE6CD2001A5397 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fire.png; path = Resources/fire.png; sourceTree = "<group>"; };
-		BDA4BC8A18AE6CD2001A5397 /* newton-ipadhd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "newton-ipadhd.plist"; path = "Resources/newton-ipadhd.plist"; sourceTree = "<group>"; };
-		BDA4BC8C18AE6CD2001A5397 /* newton-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newton-ipadhd.png"; path = "Resources/newton-ipadhd.png"; sourceTree = "<group>"; };
-		BDA4BC8E18AE6CD2001A5397 /* newton-ipad.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "newton-ipad.plist"; path = "Resources/newton-ipad.plist"; sourceTree = "<group>"; };
-		BDA4BC9018AE6CD2001A5397 /* newton-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newton-ipad.png"; path = "Resources/newton-ipad.png"; sourceTree = "<group>"; };
-		BDA4BC9218AE6CD2001A5397 /* newton.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = newton.plist; path = Resources/newton.plist; sourceTree = "<group>"; };
-		BDA4BC9418AE6CD2001A5397 /* newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newton.png; path = Resources/newton.png; sourceTree = "<group>"; };
+		BDA4BC9E18AE7436001A5397 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = background.mp3; path = Resources/background.mp3; sourceTree = "<group>"; };
+		BDA4BC9F18AE7436001A5397 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = Resources/bg.png; sourceTree = "<group>"; };
+		BDA4BCA018AE7436001A5397 /* bombFail.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bombFail.wav; path = Resources/bombFail.wav; sourceTree = "<group>"; };
+		BDA4BCA118AE7436001A5397 /* bombRelease.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bombRelease.wav; path = Resources/bombRelease.wav; sourceTree = "<group>"; };
+		BDA4BCA218AE7436001A5397 /* boom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = boom.wav; path = Resources/boom.wav; sourceTree = "<group>"; };
+		BDA4BCA418AE7436001A5397 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		BDA4BCA518AE7436001A5397 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		BDA4BCA618AE7436001A5397 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		BDA4BCA718AE7436001A5397 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		BDA4BCA818AE7436001A5397 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		BDA4BCA918AE7436001A5397 /* Icon-iPad-Spotlight-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad-Spotlight-iOS7@2x.png"; sourceTree = "<group>"; };
+		BDA4BCAA18AE7436001A5397 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		BDA4BCAB18AE7436001A5397 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		BDA4BCAC18AE7436001A5397 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		BDA4BCAD18AE7436001A5397 /* Icon-Spotlight-iOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-iOS7.png"; sourceTree = "<group>"; };
+		BDA4BCAE18AE7436001A5397 /* Icon-Spotlight-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-iOS7@2x.png"; sourceTree = "<group>"; };
+		BDA4BCAF18AE7436001A5397 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BDA4BCB018AE7436001A5397 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		BDA4BCC718AE9064001A5397 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg2.png; path = Resources/bg2.png; sourceTree = "<group>"; };
+		BDA4BCC918AE9130001A5397 /* sprite_sheet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = sprite_sheet.plist; path = Resources/sprite_sheet.plist; sourceTree = "<group>"; };
+		BDA4BCCA18AE9130001A5397 /* sprite_sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sprite_sheet.png; path = Resources/sprite_sheet.png; sourceTree = "<group>"; };
+		BDA4BCCD18AFC6E5001A5397 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverScene.h; path = Classes/GameOverScene.h; sourceTree = "<group>"; };
+		BDA4BCCE18AFC6E5001A5397 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOverScene.m; path = Classes/GameOverScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -694,9 +722,11 @@
 				BDA4B9D318AE6CCD001A5397 /* UIKit.framework in Frameworks */,
 				BDA4B9C918AE6CCD001A5397 /* QuartzCore.framework in Frameworks */,
 				BDA4B9D118AE6CCD001A5397 /* AVFoundation.framework in Frameworks */,
+				64FC147A18B1FC52007E0C4F /* FacebookSDK.framework in Frameworks */,
 				BDA4B9D718AE6CCD001A5397 /* CoreGraphics.framework in Frameworks */,
 				BDA4B9D918AE6CCD001A5397 /* CoreText.framework in Frameworks */,
 				BDA4B9CB18AE6CCD001A5397 /* OpenGLES.framework in Frameworks */,
+				BD3520D918AFEE9700C91AF9 /* FacebookSDK.framework in Frameworks */,
 				BDA4B9D518AE6CCD001A5397 /* Foundation.framework in Frameworks */,
 				BDA4B9CF18AE6CCD001A5397 /* AudioToolbox.framework in Frameworks */,
 			);
@@ -726,6 +756,8 @@
 		BDA4B9C718AE6CCD001A5397 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64FC147918B1FC52007E0C4F /* FacebookSDK.framework */,
+				BD3520D818AFEE9700C91AF9 /* FacebookSDK.framework */,
 				BDA4B9C818AE6CCD001A5397 /* QuartzCore.framework */,
 				BDA4B9CA18AE6CCD001A5397 /* OpenGLES.framework */,
 				BDA4B9CC18AE6CCD001A5397 /* OpenAL.framework */,
@@ -753,6 +785,19 @@
 		BDA4B9E118AE6CCD001A5397 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BD3520D018AFD85000C91AF9 /* igloo.wav */,
+				BD3520D118AFD85000C91AF9 /* oops.wav */,
+				BD3520D218AFD85000C91AF9 /* shape.wav */,
+				BD3520D318AFD85000C91AF9 /* switch.wav */,
+				BDA4BCC918AE9130001A5397 /* sprite_sheet.plist */,
+				BDA4BCCA18AE9130001A5397 /* sprite_sheet.png */,
+				BDA4BCC718AE9064001A5397 /* bg2.png */,
+				BDA4BC9E18AE7436001A5397 /* background.mp3 */,
+				BDA4BC9F18AE7436001A5397 /* bg.png */,
+				BDA4BCA018AE7436001A5397 /* bombFail.wav */,
+				BDA4BCA118AE7436001A5397 /* bombRelease.wav */,
+				BDA4BCA218AE7436001A5397 /* boom.wav */,
+				BDA4BCA318AE7436001A5397 /* Icons */,
 				BDA4B9E218AE6CCD001A5397 /* Default.png */,
 				BDA4B9E418AE6CCD001A5397 /* Default@2x.png */,
 				BDA4B9E618AE6CCD001A5397 /* Default-568h@2x.png */,
@@ -760,14 +805,6 @@
 				BDA4BA0518AE6CCD001A5397 /* Info.plist */,
 				BDA4BA0618AE6CCD001A5397 /* iTunesArtwork */,
 				BDA4BA0818AE6CCD001A5397 /* iTunesArtwork@2x */,
-				BDA4BC8618AE6CD2001A5397 /* fire.plist */,
-				BDA4BC8818AE6CD2001A5397 /* fire.png */,
-				BDA4BC8A18AE6CD2001A5397 /* newton-ipadhd.plist */,
-				BDA4BC8C18AE6CD2001A5397 /* newton-ipadhd.png */,
-				BDA4BC8E18AE6CD2001A5397 /* newton-ipad.plist */,
-				BDA4BC9018AE6CD2001A5397 /* newton-ipad.png */,
-				BDA4BC9218AE6CD2001A5397 /* newton.plist */,
-				BDA4BC9418AE6CD2001A5397 /* newton.png */,
 				BDA4B9EA18AE6CCD001A5397 /* Icons */,
 			);
 			name = Resources;
@@ -1579,21 +1616,35 @@
 			children = (
 				BDA4BC7018AE6CD2001A5397 /* AppDelegate.h */,
 				BDA4BC7118AE6CD2001A5397 /* AppDelegate.m */,
-				BDA4BC7318AE6CD2001A5397 /* HelloWorldScene.h */,
-				BDA4BC7418AE6CD2001A5397 /* HelloWorldScene.m */,
+				BDA4BC7318AE6CD2001A5397 /* PlayScene.h */,
+				BDA4BC7418AE6CD2001A5397 /* PlayScene.m */,
 				BDA4BC7618AE6CD2001A5397 /* IntroScene.h */,
 				BDA4BC7718AE6CD2001A5397 /* IntroScene.m */,
-				BDA4BC7918AE6CD2001A5397 /* NewtonConstants.h */,
-				BDA4BC7A18AE6CD2001A5397 /* NewtonScene.h */,
-				BDA4BC7B18AE6CD2001A5397 /* NewtonScene.m */,
-				BDA4BC7D18AE6CD2001A5397 /* NewtonSphere.h */,
-				BDA4BC7E18AE6CD2001A5397 /* NewtonSphere.m */,
-				BDA4BC8018AE6CD2001A5397 /* LightBulb.h */,
-				BDA4BC8118AE6CD2001A5397 /* LightBulb.m */,
-				BDA4BC8318AE6CD2001A5397 /* Rope.h */,
-				BDA4BC8418AE6CD2001A5397 /* Rope.m */,
+				BDA4BCCD18AFC6E5001A5397 /* GameOverScene.h */,
+				BDA4BCCE18AFC6E5001A5397 /* GameOverScene.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		BDA4BCA318AE7436001A5397 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				BDA4BCA418AE7436001A5397 /* Icon-120.png */,
+				BDA4BCA518AE7436001A5397 /* Icon-72.png */,
+				BDA4BCA618AE7436001A5397 /* Icon-72@2x.png */,
+				BDA4BCA718AE7436001A5397 /* Icon-76.png */,
+				BDA4BCA818AE7436001A5397 /* Icon-76@2x.png */,
+				BDA4BCA918AE7436001A5397 /* Icon-iPad-Spotlight-iOS7@2x.png */,
+				BDA4BCAA18AE7436001A5397 /* Icon-Small-50.png */,
+				BDA4BCAB18AE7436001A5397 /* Icon-Small.png */,
+				BDA4BCAC18AE7436001A5397 /* Icon-Small@2x.png */,
+				BDA4BCAD18AE7436001A5397 /* Icon-Spotlight-iOS7.png */,
+				BDA4BCAE18AE7436001A5397 /* Icon-Spotlight-iOS7@2x.png */,
+				BDA4BCAF18AE7436001A5397 /* Icon.png */,
+				BDA4BCB018AE7436001A5397 /* Icon@2x.png */,
+			);
+			name = Icons;
+			path = Resources/Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1664,37 +1715,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA4BCB418AE7436001A5397 /* bg.png in Resources */,
 				BDA4B9E518AE6CCD001A5397 /* Default@2x.png in Resources */,
 				BDA4B9F818AE6CCD001A5397 /* Icon-120.png in Resources */,
 				BDA4BBFC18AE6CD1001A5397 /* LICENSE_CCBReader.txt in Resources */,
-				BDA4BC8F18AE6CD2001A5397 /* newton-ipad.plist in Resources */,
-				BDA4BC8B18AE6CD2001A5397 /* newton-ipadhd.plist in Resources */,
 				BDA4B9EE18AE6CCD001A5397 /* Icon@2x.png in Resources */,
+				BDA4BCB718AE7436001A5397 /* boom.wav in Resources */,
+				BDA4BCBC18AE7436001A5397 /* Icon-76@2x.png in Resources */,
 				BDA4BA0018AE6CCD001A5397 /* Icon-Small@2x.png in Resources */,
-				BDA4BC9318AE6CD2001A5397 /* newton.plist in Resources */,
 				BDA4B9F218AE6CCD001A5397 /* Icon-72@2x.png in Resources */,
+				BDA4BCB318AE7436001A5397 /* background.mp3 in Resources */,
+				BDA4BCC218AE7436001A5397 /* Icon-Spotlight-iOS7@2x.png in Resources */,
+				BDA4BCCC18AE9130001A5397 /* sprite_sheet.png in Resources */,
+				BDA4BCCB18AE9130001A5397 /* sprite_sheet.plist in Resources */,
+				BDA4BCB618AE7436001A5397 /* bombRelease.wav in Resources */,
+				BDA4BCBA18AE7436001A5397 /* Icon-72@2x.png in Resources */,
 				BDA4B9E318AE6CCD001A5397 /* Default.png in Resources */,
 				BDA4B9EC18AE6CCD001A5397 /* Icon.png in Resources */,
 				BDA4B9FA18AE6CCD001A5397 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
+				BDA4BCBF18AE7436001A5397 /* Icon-Small.png in Resources */,
+				BDA4BCC318AE7436001A5397 /* Icon.png in Resources */,
 				BDA4B9E918AE6CCD001A5397 /* Default-Landscape~ipad.png in Resources */,
 				BDA4B9FE18AE6CCD001A5397 /* Icon-Small.png in Resources */,
+				BD3520D618AFD85000C91AF9 /* shape.wav in Resources */,
 				BDA4B9FC18AE6CCD001A5397 /* Icon-Small-50.png in Resources */,
-				BDA4BC8718AE6CD2001A5397 /* fire.plist in Resources */,
-				BDA4BC8918AE6CD2001A5397 /* fire.png in Resources */,
-				BDA4BC9118AE6CD2001A5397 /* newton-ipad.png in Resources */,
+				BDA4BCBB18AE7436001A5397 /* Icon-76.png in Resources */,
 				BDA4BBE518AE6CD1001A5397 /* LICENSE_Kazmath.txt in Resources */,
+				BDA4BCC018AE7436001A5397 /* Icon-Small@2x.png in Resources */,
 				BDA4B9F018AE6CCD001A5397 /* Icon-72.png in Resources */,
+				BD3520D418AFD85000C91AF9 /* igloo.wav in Resources */,
+				BDA4BCBE18AE7436001A5397 /* Icon-Small-50.png in Resources */,
+				BDA4BCC118AE7436001A5397 /* Icon-Spotlight-iOS7.png in Resources */,
 				BDA4BB3E18AE6CD0001A5397 /* LICENSE_cocos2d.txt in Resources */,
-				BDA4BC8D18AE6CD2001A5397 /* newton-ipadhd.png in Resources */,
+				BDA4BCB918AE7436001A5397 /* Icon-72.png in Resources */,
 				BDA4B9E718AE6CCD001A5397 /* Default-568h@2x.png in Resources */,
 				BDA4BA0718AE6CCD001A5397 /* iTunesArtwork in Resources */,
-				BDA4BC9518AE6CD2001A5397 /* newton.png in Resources */,
+				BDA4BCC818AE9064001A5397 /* bg2.png in Resources */,
 				BDA4BA0218AE6CCD001A5397 /* Icon-Spotlight-iOS7.png in Resources */,
 				BDA4B9F618AE6CCD001A5397 /* Icon-76@2x.png in Resources */,
+				BDA4BCB518AE7436001A5397 /* bombFail.wav in Resources */,
 				BDA4BC6A18AE6CD2001A5397 /* LICENSE_Chipmunk.txt in Resources */,
 				BDA4BA0418AE6CCD001A5397 /* Icon-Spotlight-iOS7@2x.png in Resources */,
+				BD3520D718AFD85000C91AF9 /* switch.wav in Resources */,
 				BDA4B9F418AE6CCD001A5397 /* Icon-76.png in Resources */,
+				BDA4BCC418AE7436001A5397 /* Icon@2x.png in Resources */,
 				BDA4BBCA18AE6CD1001A5397 /* ChangeLog in Resources */,
+				BDA4BCB818AE7436001A5397 /* Icon-120.png in Resources */,
+				BD3520D518AFD85000C91AF9 /* oops.wav in Resources */,
+				BDA4BCBD18AE7436001A5397 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
 				BDA4BA0918AE6CCD001A5397 /* iTunesArtwork@2x in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1772,7 +1840,6 @@
 				BDA4BB5118AE6CD0001A5397 /* OALAudioTrack.m in Sources */,
 				BDA4BA9418AE6CCE001A5397 /* CCProgressNode.m in Sources */,
 				BDA4BA8718AE6CCE001A5397 /* CCPhysicsBody.m in Sources */,
-				BDA4BC8218AE6CD2001A5397 /* LightBulb.m in Sources */,
 				BDA4BB0C18AE6CCF001A5397 /* CCWindow.m in Sources */,
 				BDA4BA2118AE6CCD001A5397 /* CCActionProgressTimer.m in Sources */,
 				BDA4BBD718AE6CD1001A5397 /* plane.c in Sources */,
@@ -1782,18 +1849,15 @@
 				BDA4BB8118AE6CD0001A5397 /* OALAudioSession.m in Sources */,
 				BDA4BBF818AE6CD1001A5397 /* CCBLocalizationManager.m in Sources */,
 				BDA4BAE418AE6CCF001A5397 /* CCTiledMapObjectGroup.m in Sources */,
-				BDA4BC7F18AE6CD2001A5397 /* NewtonSphere.m in Sources */,
 				BDA4BBE118AE6CD1001A5397 /* vec3.c in Sources */,
 				BDA4BA6418AE6CCE001A5397 /* CCLayoutBox.m in Sources */,
 				BDA4BA6118AE6CCE001A5397 /* CCLayout.m in Sources */,
 				BDA4BB8418AE6CD0001A5397 /* OALSuspendHandler.m in Sources */,
 				BDA4BBE318AE6CD1001A5397 /* vec4.c in Sources */,
 				BDA4BAF518AE6CCF001A5397 /* CCDirectorIOS.m in Sources */,
-				BDA4BC7C18AE6CD2001A5397 /* NewtonScene.m in Sources */,
 				BDA4BACC18AE6CCF001A5397 /* CCSpriteFrameCache.m in Sources */,
 				BDA4BB8B18AE6CD0001A5397 /* mach_timing.c in Sources */,
 				BDA4BB6F18AE6CD0001A5397 /* ALListener.m in Sources */,
-				BDA4BC8518AE6CD2001A5397 /* Rope.m in Sources */,
 				BDA4BA4818AE6CCE001A5397 /* ccFPSImages.m in Sources */,
 				BDA4BB1F18AE6CCF001A5397 /* ccUtils.c in Sources */,
 				BDA4BA9018AE6CCE001A5397 /* CCPhysicsShape.m in Sources */,
@@ -1805,7 +1869,7 @@
 				BDA4BABB18AE6CCF001A5397 /* ccShaders.m in Sources */,
 				BDA4BBCF18AE6CD1001A5397 /* matrix.c in Sources */,
 				BDA4BAE118AE6CCF001A5397 /* CCTiledMapLayer.m in Sources */,
-				BDA4BC7518AE6CD2001A5397 /* HelloWorldScene.m in Sources */,
+				BDA4BC7518AE6CD2001A5397 /* PlayScene.m in Sources */,
 				BDA4BBD518AE6CD1001A5397 /* neon_matrix_impl.c in Sources */,
 				BDA4BA5A18AE6CCE001A5397 /* CCLabelTTF.m in Sources */,
 				BDA4BB0F18AE6CCF001A5397 /* NSEvent+CC.m in Sources */,
@@ -1829,6 +1893,7 @@
 				BDA4BA2B18AE6CCD001A5397 /* CCAnimationCache.m in Sources */,
 				BDA4BBAF18AE6CD0001A5397 /* CCTableView.m in Sources */,
 				BDA4BC7218AE6CD2001A5397 /* AppDelegate.m in Sources */,
+				BDA4BCCF18AFC6E5001A5397 /* GameOverScene.m in Sources */,
 				BDA4BA4218AE6CCE001A5397 /* CCDrawingPrimitives.m in Sources */,
 				BDA4BB3318AE6CCF001A5397 /* TGAlib.m in Sources */,
 				BDA4BAFF18AE6CCF001A5397 /* UITouch+CC.m in Sources */,
@@ -1982,6 +2047,11 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/dinhquochung/Documents/FacebookSDK,
+					"/Users/dinh-q/Documents/FacebookSDK",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "runningbird/Supporting Files/Prefix.pch";
@@ -2007,6 +2077,11 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/dinhquochung/Documents/FacebookSDK,
+					"/Users/dinh-q/Documents/FacebookSDK",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "runningbird/Supporting Files/Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -2045,6 +2120,7 @@
 				BDA4BC9A18AE6CD2001A5397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDA4BC9B18AE6CD2001A5397 /* Build configuration list for PBXNativeTarget "runningbird" */ = {
 			isa = XCConfigurationList;
@@ -2053,6 +2129,7 @@
 				BDA4BC9D18AE6CD2001A5397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
